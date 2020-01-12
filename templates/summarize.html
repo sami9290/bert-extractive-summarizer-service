@@ -1,0 +1,8 @@
+<form action="/summarize" method="POST">
+<input name="text">
+<input type="submit" value="Summarize">
+</form>
+
+{% if text %}
+ Summarized Text:  {{text}}
+{% endif %}
